@@ -12,7 +12,9 @@ def draw_city():
     draw_leisure()
     road.draw_road()
     draw_outdoors()
-    tree.draw_tree()
+    tree.draw_tree(0)
+    tree.draw_tree(5)
+    tree.draw_tree(5, "vertical")
     road.draw_road()
     draw_education()
     return
